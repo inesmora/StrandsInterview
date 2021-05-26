@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5b27e657-47cf-4948-b466-2cfdc83fbad8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview-eventmanager/src/main/java/com/strands/interviews/eventsystem/impl/DefaultEventManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview-eventmanager/src/main/java/com/strands/interviews/eventsystem/impl/DefaultEventManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview-eventmanager/src/test/java/com/strands/interviews/eventsystem/DefaultEventManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview-eventmanager/src/test/java/com/strands/interviews/eventsystem/DefaultEventManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview-optional/SingleInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview-optional/SingleInstance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +29,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/interview-eventmanager/src/main/java/com/strands/interviews/eventsystem" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
