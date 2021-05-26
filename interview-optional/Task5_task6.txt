@@ -1,0 +1,31 @@
+--- TASK 5 ---
+
+a) 
+    SELECT COUNT t.id 
+    FROM transaction t, account a
+    WHERE t.posted_date == '2013' and 
+          c.id == '15' and 
+          t.account_id == a.id and
+          a.id == ‘356789’;
+                                           
+
+b)
+    SELECT t.id 
+    FROM transaction t, account a, user u
+    WHERE t.posted_date == MONTH(getdate()) and
+          t.account_id == a.id and
+          a.user_id == u.id;
+          
+
+c)
+    SELECT c.id
+    FROM categories c
+    WHERE COUNT (SELECT t.id FROM transaction t WHERE t.category_id == c.id) > 0
+
+
+
+--- TASK 6 ---
+
+a) /([a-z]{1}\.)+[a-z]+@(\bstrands\b)\.+(\bcom\b)/
+
+b) /[A-Z]+[0-9]{1,2}\/+[0-9]{1,2}\/[0-9]{1,2}/
