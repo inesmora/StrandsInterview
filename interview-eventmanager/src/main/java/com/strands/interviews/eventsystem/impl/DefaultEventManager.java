@@ -48,8 +48,18 @@ public class DefaultEventManager implements EventManager
 
         Class[] classes = listener.getHandledEventClasses();
 
-        for (int i = 0; i < classes.length; i++)
-            addToListenerList(classes[i], listener);
+        if (classes.length == 0) {
+            for (Iterator it = listenersByClass.values().iterator(); it.hasNext();)
+            {
+                List list = (List) it.next();
+                list.add(listener);
+            }
+        }
+
+        else {
+            for (int i = 0; i < classes.length; i++)
+                addToListenerList(classes[i], listener);
+        }
 
         listeners.put(listenerKey, listener);
     }

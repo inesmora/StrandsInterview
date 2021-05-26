@@ -36,6 +36,14 @@ public class DefaultEventManagerTest
     }
 
     @Test
+    public void task2()
+    {
+        EventListenerMock eventListenerMock = new EventListenerMock(new Class[]{SimpleEvent.class});
+        eventManager.registerListener("some.key", eventListenerMock);
+        assertFalse(eventListenerMock.getHandledEventClasses.length == 0);
+    }
+
+    @Test
     public void testListenerWithoutMatchingEventClass()
     {
         EventListenerMock eventListenerMock = new EventListenerMock(new Class[]{SubEvent.class});
